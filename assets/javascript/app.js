@@ -154,10 +154,10 @@ function answerPage(){
 	}
 	
 	if(currentQuestion == (allQuestions.length-1)){
-		setTimeout(scoreboard, 1000)
+		setTimeout(scoreboard, 3000)
 	} else{
 		currentQuestion++;
-		setTimeout(newQuestion, 1000);
+		setTimeout(newQuestion, 3000);
 	}	
 }
 
