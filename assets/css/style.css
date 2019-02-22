@@ -1,0 +1,54 @@
+header {
+    background-image: url(assets/images/background.jpg);
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: solid 5px black;
+}
+
+body {
+	font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+#content {
+    padding-top: 10px;
+    background: url('../images/wallpaper.png');
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+    align-items: center;
+}
+
+.btn-primary,.reset {
+	background-color: crimson;
+	color: white;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+	font-size: 30px;
+	padding: 20px;
+    margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover {
+	background-color: red;
+}
+
+h2, #evaluation, #finalScore {
+    font-family: 'Amatic SC', cursive;
+    font-weight: bolder;
+}
+
+.thisChoice:hover {
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+
+#img {
+	margin: 30px;
+}
